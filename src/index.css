@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  font-size: 24px;
+  border-radius: 10px;
+  border-width: 0;
+  height: 50px;
+  width: 150px;
+  color: white;
+}
+
+label {
+  color: red;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.increment-button {
+  background-color: green;
+}
+
+.decrement-button {
+  background-color: red;
+}
+
+.counter-message {
+  display: flex;
+  justify-content:center;
+  margin-top: 30px;
+}
